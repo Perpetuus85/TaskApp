@@ -1,0 +1,7 @@
+﻿services:
+  taskapp:
+    image: taskapp
+    build:
+      context: .
+      dockerfile: TaskApp/Dockerfile
+
